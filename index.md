@@ -1,11 +1,21 @@
-# BIO6500 - Special Topics in Bioinformatics - Home Page
+# BIO650 - Special Topics in Bioinformatics - Home Page
 
 ## Instructor: Asscociate Prof. [Vasilis J Promponas](https://www.ucy.ac.cy/dir/el/component/comprofiler/userprofile/vprobon). [vprobon@ucy.ac.cy](mailto:vprobon@ucy.ac.cy)
 
 
 ##  Description/Goals 
 
-XXXXX
+Lectures cover six broad areas:Overview of Computational Biology and Bioinformatics. Fundamentals of sequence comparison. Comparative genomics. Gene/protein annotation (function prediction). Biological networks. Structural bioinformatics.During the course, students are handed classic papers of the field (including authoritative reviews) as well as selected recent original research articles followed by discussion groups. Papers discussing controversial issues are the basis of individual assignments resulting in oral presentations and discussion groups. A group project (2-3 students per group), using freely available or simulated real-world data and freely available tools is presented at the end of the semester (written report and oral presentation) followed by discussion.
+
+## Intended Learning Outcomes:
+Students should be able to:
+* Recognize the importance of different bioinformatics approaches in modern Molecular Biology, Genetics and Genomics
+* Apprehend fundamental bioinformatics methods (e.g. sequence comparison, comparative genomics, network analysis)
+* Identify the bioinformatics methods used in different original research papers.
+* Understand the data types associated with different types of analyses.
+* Assess the reproducibility of bioinformatics methods reported in the literature based on the reported protocols and data identifiers.
+* Perform effective literature and reverse citation search to quickly collect information about a scientific field of interest.
+* Reproduce results from select original publications based on similar data and methods.
 
 This course is **taught in English** and is available to ERASMUS+/YUFE students.
 
