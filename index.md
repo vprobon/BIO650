@@ -5,7 +5,18 @@
 
 ##  Description/Goals 
 
-Lectures cover six broad areas:Overview of Computational Biology and Bioinformatics. Fundamentals of sequence comparison. Comparative genomics. Gene/protein annotation (function prediction). Biological networks. Structural bioinformatics.During the course, students are handed classic papers of the field (including authoritative reviews) as well as selected recent original research articles followed by discussion groups. Papers discussing controversial issues are the basis of individual assignments resulting in oral presentations and discussion groups. A group project (2-3 students per group), using freely available or simulated real-world data and freely available tools is presented at the end of the semester (written report and oral presentation) followed by discussion.
+Lectures cover six broad areas:
+
+* Overview of Computational Biology and Bioinformatics. 
+* Fundamentals of sequence comparison. 
+* Comparative genomics. 
+* Gene/protein annotation (function prediction). 
+* Biological networks. 
+* Structural bioinformatics.
+
+During the course, students are handed (classic) papers of the field (including authoritative reviews) as well as selected recent original research articles followed by discussion groups. 
+Papers discussing controversial issues are the basis of individual assignments resulting in oral presentations and discussion groups. 
+A group project (2-3 students per group), using freely available or simulated real-world data and freely available tools is presented at the end of the semester (written report and oral presentation) followed by discussion.
 
 ## Intended Learning Outcomes:
 Students should be able to:
