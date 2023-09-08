@@ -1,4 +1,4 @@
-# BIO6500 - Special Topics in Bioinformatics - Contact information
+# BIO650 - Special Topics in Bioinformatics - Contact information
 
 ## Instructor: Asscociate Prof. [Vasilis J Promponas](https://www.ucy.ac.cy/dir/el/component/comprofiler/userprofile/vprobon). [promponas.vasileios@ucy.ac.cy](mailto:promponas.vasileios@ucy.ac.cy)
 
