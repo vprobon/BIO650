@@ -33,7 +33,7 @@ This course is **taught in English** and is available to ERASMUS+/YUFE students.
 ## General Information
 >Meetings for this class are organized as follows:
 >
->**Lectures**: Friday, 18.00-21.00 (Room 001, ΧΩΔ01 building; available to YUFE+ students online via Teams).
+>**Lectures**: Friday, 18.00-21.00 (Room 003, ΧΩΔ01 building; available to YUFE+ students online via Teams).
 >
 >**Tutorials/Practicals**: Wednesday, 13.00-14.00 (Room 003, ΧΩΔ01 building; available to YUFE+ students online via Teams).
 >

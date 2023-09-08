@@ -10,24 +10,23 @@
    
 **Suggested books**
 
-1. Understanding Bioinformatics
+1. **Understanding Bioinformatics**
 Author: Marketa Zvelebil and Jeremy O. Baum
 Garland Science
 ISBN-13:978 0 8153 4024 9
+[*Note:* You may use the UCY library entry for this book to get online access.]
 
-*Note:* You may use the UCY library entry for this book to get online access.
-
-2. Bioinformatics: Sequence and Genome Analysis (2nd ed)
+2. **Bioinformatics: Sequence and Genome Analysis (2nd ed)**
 Author: David W. Mount
 CSHL Press, 2004
 ISBN 0 87969 597 8
 
-3. Bioinformatics and functional genomics
+3. **Bioinformatics and functional genomics**
 Author: Jonathan Pevsner
 Wiley-Liss, 2003
 ISBN 0 47121 004 8
 
-4. "Structural Bioinformatics"
+4. **Structural Bioinformatics**
 Author: Philip E. Bourne, Helge Weissig
 Wiley-Liss
 ISBN 0471 20199 5
