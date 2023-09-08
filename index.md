@@ -35,7 +35,7 @@ This course is **taught in English** and is available to ERASMUS+/YUFE students.
 >
 >**Lectures**: Friday, 18.00-21.00 (Room 001, ΧΩΔ01 building; available to YUFE+ students online via Teams).
 >
->**Tutorials/Practicals**: Wednesday, 13.00-14.00 (Room 001, ΧΩΔ01 building; available to YUFE+ students online via Teams).
+>**Tutorials/Practicals**: Wednesday, 13.00-14.00 (Room 003, ΧΩΔ01 building; available to YUFE+ students online via Teams).
 >
 >**Class web**: Class material on the web can be accessed at the
 
@@ -48,7 +48,7 @@ This course is **taught in English** and is available to ERASMUS+/YUFE students.
 >**Note**: According to the UCY regulations class attendance is *obligatory*.
 
 
-## [Content and Schedule](content.md)
+## [Content and Schedule](contentTBD.md)
 ## [Assessment](assessment.md)
 ## [Teaching material](material.md)
 ## [Code of conduct](conduct.md)
