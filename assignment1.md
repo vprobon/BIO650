@@ -132,8 +132,9 @@ Prepare a report in the form of a short research paper (max. 2500 words) describ
 *Note 6*: A critical approach when interpreting your results is expected.
 
 
+##### Bonus
 
-
+Any student interested in performing extra work on this assignment (e.g., repeating the work with other databases, or other types of annotation errors) may compete for a bonus mark after discussing with the instructor. Feel free to come up with ideas but let's discuss **before you start** to perform any serious work for the bonus ...
         
 
 
