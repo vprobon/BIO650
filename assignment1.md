@@ -32,7 +32,7 @@ Today, almost 10 years after this publication:
 #### Practical Steps
 
 ##### Step 0: Preparatory work
-We will use the Cytoscape application [12] for displaying protein networks after sequence similarity-based clustering. You can freely download the software on your computer using the URL [https://cytoscape.org/](https://cytoscape.org/). 
+We will use the Cytoscape application [12] for displaying protein networks based on their sequence similarities. You can freely download the software on your computer using the URL [https://cytoscape.org/](https://cytoscape.org/). 
 
 **Note**: Computers running Windows/MacOS/Linux are supported.
 
@@ -50,7 +50,7 @@ Here we will collect our sequence dataset consisting of "putaitve" proteins, as 
 > * *Tip*: On the top-right of the results page, select *"Send to"*, then *"File"*. You must select the sequences to be in *FASTA* format, as we will use them as input to software that recognizes this format.
 
 ##### Step 2: Tracing the source(s) of error
-We will perform sequence similarity-based sequence clustering, to identify groups of possible homologous sequences. If we assume that proteins in the same cluster have "inherited" the typographical error from an initial misannotated protein, we could potentially identify the source of error (how??).
+We will perform sequence similarity-based sequence clustering, to identify groups of possible homologous sequences. If we assume that proteins in the same cluster have "inherited" the typographical error from an initial mis-annotated protein, we could potentially identify the source of error (how??).
 
 - Computation of all-versus-all protein sequence comparisons. For this purpose we will use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) webserver [13].
     * Use your browser to access the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) page.
@@ -61,13 +61,15 @@ We will perform sequence similarity-based sequence clustering, to identify group
         - directly upload your files (use the "Choose file" button).	
     * Scroll down to *"Algorithm parameters"* and choose the *"Max target sequences"* to the maximum possible value. Leave all other parameters to their default values. 
     * Press the *BLAST* button to execute the comparisons. Be patient, the results will appear in a few moments.
-
-    - Take a few moments to explore the comparison results on your browser. For each sequence you submitted you can see the results in a separate page.
-    - Save the results on your computer by clicking the *"Download All"* link.
-    * *Tip*: There are several available formats. Select "Hit table(csv)". 
-
+    * Take a few moments to explore the comparison results on your browser. For each sequence you submitted you can see the results in a separate page.
+    * Save the results on your computer by clicking the *"Download All"* link.
+    * *Tip*: There are several available formats. Select "Hit table(csv)" and save the file on your computer. 
 
 ##### Step 3: Sequence similarity-based clustering
+For simplicity, we will not perform "proper" clustering to our sequence similarity data. We will use the similarities detected using BLAST to generate a ***protein network***: proteins will serve as the *nodes* (or *vertices*) of the network and network *edges* will only be constructed for protein pairs with a detected sequence similarity. Instead of using appropriate clustering algorithms for generating network partitions (aka *subnetworks*), we will use the notion of the *connected components*(see this [link for a definition](https://en.wikipedia.org/wiki/Component\_(graph_theory))). 
+
+*Note*: Optionally, if you want to experiment with a proper clustering method (e.g., as performed in [9]), you can install the [clusterMaker2](https://apps.cytoscape.org/apps/clustermaker2) Cytoscape plugin that offers several options to choose from.
+
 
 #### References
 
