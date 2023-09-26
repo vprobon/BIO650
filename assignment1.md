@@ -12,8 +12,7 @@ Due to our inability to perform "wet" experiments at such a large scale, gene/ge
 - Identify exon/intron boundaries.
 - Functionally characterise gene products (i.e., assign possible functions).
 
-The functional annotation process often relies on the assumption that homologous genes/proteins perform the same function. Homology can be detected when sufficient sequence similarity is detected between two macromolecular sequences; 
-then we can "transfer" existing annotations from a gene/protein of known function to a newly characterized one. Obviously, if erroneous functional information is entered for an entry in a sequence database, these errors can be propagated during annotation transfer, thus these errors will be maintained in the sequence database.
+The functional annotation process often relies on the assumption that homologous genes/proteins perform the same function [for some further info click here](#suggested-reading). Homology can often be detected when sufficient sequence similarity is detected between two macromolecular sequences; then we can "transfer" existing annotations from a gene/protein of known function to a newly characterized one. Obviously, if erroneous functional information is entered for an entry in a sequence database, these errors can be propagated during annotation transfer, thus these errors will be maintained in the sequence database.
 
 There have been several reports in the literature, highlighting the existence of database errors (and their different types), discussing their significance and studying their mode of propagation within databases [1-11].
 
@@ -165,5 +164,10 @@ Any student interested in performing extra work on this assignment (e.g., repeat
 12. Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003;13(11):2498-504.
 
 13. Altschul SF, Madden TL, Schäffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25(17):3389-402.
+
+#### Suggested Reading
+- For an introduction to concepts related to homology you may consider Chapter 2 from 
+Sequence - Evolution - Function: Computational Approaches in Comparative Genomics, by 
+Koonin EV and Galperin MY. Boston: Kluwer Academic; 2003. [Free online access](https://www.ncbi.nlm.nih.gov/books/NBK20255/).
 
 [Bioinformatics Research Laboratory @UCY](https://vprobon.github.io/BRL-UCY) 2005-2023.
