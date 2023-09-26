@@ -53,8 +53,15 @@ Here we will collect our sequence dataset consisting of "putaitve" proteins, as 
 We will perform sequence similarity-based sequence clustering, to identify groups of possible homologous sequences. If we assume that proteins in the same cluster have "inherited" the typographical error from an initial misannotated protein, we could potentially identify the source of error (how??).
 
 - Computation of all-versus-all protein sequence comparisons. For this purpose we will use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) webserver [13].
-> * Use your browser to land in the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) page.
+> * Use your browser to access the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) page.
 > * Take a minute or two to see what BLAST options are available. Then, select "Protein BLAST" (we deal with protein sequences after all!!).
+> * In the top panel (titled "Enter Query Sequence") select the checkbox *"Align two or more sequences"*. Then two similar areas for entering sequences for comparisons become available.
+> To enter the data for all-versus-all sequence comparison you may
+>> - open the FASTA file containing the sequences you downloaded in *Step 1* and copy-paste all sequences to the two text boxes provided, or
+>> directly upload your files (use the "Choose file" button).
+> Leave all other parameters to their default values and scroll down the page and press the *BLAST* button to execute the search. Be patient, the results will appear in a few moments.
+- Save the results on your computer
+
 
 #### References
 
