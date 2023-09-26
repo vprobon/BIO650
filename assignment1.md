@@ -8,7 +8,7 @@
 #### Background information
 Biomolecular sequences are produced in ever increasing rates, mainly due to the continuous reduction in sequencing costs and the availability of underlying high-throughput technologies. These sequences are routinely deposited in archival databases (e.g., [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)). 
 Due to our inability to perform "wet" experiments at such a large scale, gene/genome/protein sequences are often subject to computational analyses for obtaining meaningful annotations: such computational analyses aim (among others) to 
-- Characterise the extent of coding regions.
+- Characterize the extent of coding regions.
 - Identify exon/intron boundaries.
 - Functionally characterise gene products (i.e., assign possible functions).
 
@@ -41,8 +41,10 @@ We will use the Cytoscape application [12] for displaying protein networks after
 ##### Step 1: Identification and retrieval of "putaitve" proteins
 - Use your favorite web browser to navigate to the protein database at the [NCBI website](https://www.ncbi.nlm.nih.gov/protein).
 - Enter the keyword *putaitve* at the text box and search the database
-> How many protein sequence entries are retrieved by this search?
-
+> * How many protein sequence entries are retrieved by this search?
+> * Can you identify where the typographical error is found?
+- Download the erroneous database entries in a local file on your computer
+> *Tip*: On the top-right of the results page, select *"Send to"*, then *"File"*. You must select the sequences to be in *FASTA* format, as we will use them as input to software that recognizes this format.
 
 #### References
 
