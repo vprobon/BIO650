@@ -38,13 +38,23 @@ We will use the Cytoscape application [12] for displaying protein networks after
 
 **Note 2**: Cytoscape is accompanied by a rich collection of extensions (Cytoscape Apps). Feel free to play with any of these useful tools. Nevertheless, for the purposes of this practical the basic Cytoscape functionality (i.e., no extra Apps) will suffice.
 
-##### Step 1: Identification and retrieval of "putaitve" proteins
+##### Step 1: Identification and retrieval of erroneously annotated protein sequences
+Here we will collect our sequence dataset consisting of "putaitve" proteins, as described in [9].
+
 - Use your favorite web browser to navigate to the protein database at the [NCBI website](https://www.ncbi.nlm.nih.gov/protein).
 - Enter the keyword *putaitve* at the text box and search the database
 > * How many protein sequence entries are retrieved by this search?
 > * Can you identify where the typographical error is found?
+> * Does the number of entries you found compare to the one reported in [9]?
 - Download the erroneous database entries in a local file on your computer
-> *Tip*: On the top-right of the results page, select *"Send to"*, then *"File"*. You must select the sequences to be in *FASTA* format, as we will use them as input to software that recognizes this format.
+> * *Tip*: On the top-right of the results page, select *"Send to"*, then *"File"*. You must select the sequences to be in *FASTA* format, as we will use them as input to software that recognizes this format.
+
+##### Step 2: Tracing the source(s) of error
+We will perform sequence similarity-based sequence clustering, to identify groups of possible homologous sequences. If we assume that proteins in the same cluster have "inherited" the typographical error from an initial misannotated protein, we could potentially identify the source of error (how??).
+
+- Computation of all-versus-all protein sequence comparisons. For this purpose we will use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) webserver [13].
+> * Use your browser to land in the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) page.
+> * Take a minute or two to see what BLAST options are available. Then, select "Protein BLAST" (we deal with protein sequences after all!!).
 
 #### References
 
@@ -72,5 +82,6 @@ We will use the Cytoscape application [12] for displaying protein networks after
 
 12. Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003;13(11):2498-504.
 
+13. Altschul SF, Madden TL, Schäffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25(17):3389-402.
 
 [Bioinformatics Research Laboratory @UCY](https://vprobon.github.io/BRL-UCY) 2005-2023.
