@@ -39,6 +39,7 @@ We will use the Cytoscape application [12] for displaying protein networks based
 **Note 2**: Cytoscape is accompanied by a rich collection of extensions (Cytoscape Apps). Feel free to play with any of these useful tools. Nevertheless, for the purposes of this practical the basic Cytoscape functionality (i.e., no extra Apps) will suffice.
 
 ##### Step 1: Identification and retrieval of erroneously annotated protein sequences
+
 Here we will collect our sequence dataset consisting of "putaitve" proteins, as described in [9].
 
 - Use your favorite web browser to navigate to the protein database at the [NCBI website](https://www.ncbi.nlm.nih.gov/protein).
@@ -49,7 +50,8 @@ Here we will collect our sequence dataset consisting of "putaitve" proteins, as 
 - Download the erroneous database entries in a local file on your computer
 > * *Tip*: On the top-right of the results page, select *"Send to"*, then *"File"*. You must select the sequences to be in *FASTA* format, as we will use them as input to software that recognizes this format.
 
-##### Step 2: Tracing the source(s) of error
+##### Step 2: Sequence comparison computation
+
 We will perform sequence similarity-based sequence clustering, to identify groups of possible homologous sequences. If we assume that proteins in the same cluster have "inherited" the typographical error from an initial mis-annotated protein, we could potentially identify the source of error (how??).
 
 - Computation of all-versus-all protein sequence comparisons. For this purpose we will use the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) webserver [13].
@@ -79,12 +81,40 @@ For simplicity, we will not perform "proper" clustering to our sequence similari
             * *"Interaction Type"* -> Select *"Column 12"*
         * Under **"Advanced"** check the **"Show Text File Import Options"**, then uncheck **"Transfer first line ..."**
     * Then press **"OK"**. Your network is now constructed.
-    * From the *"Layout"* menu, select "Prefuse Force Directed Layout". Now your network displays in a more comprehensible way.
+    * From the *"Layout"* menu, select *"Prefuse Force Directed Layout"*. Now your network displays in a more comprehensible way.
         * Can you now recognize the connected components of your network?
         * How many are they?
 - Computation of all connected components
+    * From the *"Tools"* menu, select *"NetworkAnalyzer"*->*"Network Analysis"*->*"Analyze Network"*, then choose "Treat the network as undirected" and press **"OK"**. 
+    * Under the *"Simple Parameters"* tab you can inspect several parameters of your network.
+        * Can you see the number of connected components computed? Compare to your previous observation.
+        * Observe the *"Number of nodes"* and *"Number of shelf loops"*. Can you comment on these values?
+    * From the *"Tools"* menu, select *"NetworkAnalyzer"*->*"Subnetwork Creation"*->*"Extract Connected Components"*.
+    * A new window appears, showing the individual connected components detected in your protein network. In parentheses, you have the respective number of edges (i.e., proteins) in each connected component. 
+        * How many proteins exist in each connected component?
+        * How can you interpret these figures?
+    * By selecting a connected component and pressing the *"Extract"* button you generate a new network based only on this particular connected component.
+        * Extract all the connected components ("clusters") and record which proteins participate in each one. *Tip*: You may want to use the export function and save the nodes table as a file to more easily process.
 
 *Note*: Optionally, if you want to experiment with a proper clustering method (e.g., as performed in [9]), you can install the [clusterMaker2](https://apps.cytoscape.org/apps/clustermaker2) Cytoscape plugin that offers several options to choose from.
+        
+##### Step 4: Tracing the source(s) of errors
+
+Using the protein identifiers for each connected component/cluster you can revisit the protein database at the [NCBI website](https://www.ncbi.nlm.nih.gov/protein) and check their annotations. 
+
+* For each cluster seek the source of error in the database.
+* Using any cluster (with >5 members) of your choice, present in detail your rationale and how you worked to identify the source of error.
+* When tracing errors for different protein clusters, do you observe any recurring features?
+* Can you comment on the time(s) when the erroneous sequence entries/annotations appeared in the database?
+
+
+##### Step 5: Prepare a report
+
+Prepare a report in the form of a short research paper describing your work for completing Steps 1-4.
+
+
+
+        
 
 
 #### References
