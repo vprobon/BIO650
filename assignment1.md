@@ -56,14 +56,20 @@ We will perform sequence similarity-based sequence clustering, to identify group
 > * Use your browser to access the [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) page.
 > * Take a minute or two to see what BLAST options are available. Then, select "Protein BLAST" (we deal with protein sequences after all!!).
 > * In the top panel (titled "Enter Query Sequence") select the checkbox *"Align two or more sequences"*. Then two similar areas for entering sequences for comparisons become available.
-> To enter the data for all-versus-all sequence comparison you may
+> * To enter the data for all-versus-all sequence comparison you may
 	a. open the FASTA file containing the sequences you downloaded in *Step 1* and copy-paste all sequences to the two text boxes provided, or
 	b. directly upload your files (use the "Choose file" button).
 	
-> Scroll down to *"Algorithm parameters"* and choose the *"Max target sequences"* to the maximum possible value. Leave all other parameters to their default values. 
-> Press the *BLAST* button to execute the comparisons. Be patient, the results will appear in a few moments.
+> * Scroll down to *"Algorithm parameters"* and choose the *"Max target sequences"* to the maximum possible value. Leave all other parameters to their default values. 
+
+> * Press the *BLAST* button to execute the comparisons. Be patient, the results will appear in a few moments.
+
+- Take a few moments to explore the comparison results on your browser. For each sequence you submitted you can see the results in a separate page.
 - Save the results on your computer by clicking the *"Download All"* link.
 > *Tip*: There are several available formats. Select "Hit table(csv)". 
+
+
+##### Step 3: Sequence similarity-based clustering
 
 #### References
 
