@@ -2,7 +2,7 @@
 
 ## Instructor: Asscociate Prof. [Vasilis J Promponas](https://www.ucy.ac.cy/dir/el/component/comprofiler/userprofile/vprobon). [promponas.vasileios@ucy.ac.cy](mailto:promponas.vasileios@ucy.ac.cy)
 
-### Assignment 1 - Becoming ***sequence detectives***.
+### Assignment 1 - Becoming ***sequence detectives***
 
 
 #### Background information
@@ -26,19 +26,22 @@ Today, almost 10 years after this publication:
 - Repeat the same sequence analysis steps, essentially becoming ***sequence detectives***, in order to reproduce the results shown in Figure 1 of [9], based on the current database status.
 - Try and identify the possible source(s) of error.
 - Compare your results to the results in [9].
-- Discuss your findings, also placing them in the context of the available literature.
+- Discuss your findings, also placing them in the context of the available literature. Do you believe, typographical errors are easy to detect (and eventually correct) in sequence databases?
 
 
-In this practical assignment, you will act as "sequence detective", where you are asked to:
-1. Detect entries with a simple typographical error in sequence databases.
-2. Use sequence comparison tools to investigate whether you are able to identify the source (i.e., the starting point of this error).
-3. Conclude on whether such types of errors are easy to spot and possibly correct in the sequence databases.
+#### Practical Steps
 
-In particular, you will try to 
+##### Step 0: Preparatory work
+We will use the Cytoscape application [12] for displaying protein networks after sequence similarity-based clustering. You can freely download the software on your computer using the URL [https://cytoscape.org/](https://cytoscape.org/). 
 
-- Whether/how we can replicate Figure 1 of the paper using sequence comparisons and freely available tools and databases
-- Compare the results of that paper (published in 2015) 
-- Comment on the above
+**Note**: Computers running Windows/MacOS/Linux are supported.
+
+**Note 2**: Cytoscape is accompanied by a rich collection of extensions (Cytoscape Apps). Feel free to play with any of these useful tools. Nevertheless, for the purposes of this practical the basic Cytoscape functionality (i.e., no extra Apps) will suffice.
+
+##### Step 1: Identification and retrieval of "putaitve" proteins
+- Use your favorite web browser to navigate to the protein database at the [NCBI website](https://www.ncbi.nlm.nih.gov/protein).
+- Enter the keyword *putaitve* at the text box and search the database
+> How many protein sequence entries are retrieved by this search?
 
 
 #### References
@@ -64,6 +67,8 @@ In particular, you will try to
 10. Goudey B, Geard N, Verspoor K, Zobel J. Propagation, detection and correction of errors using the sequence database network. Brief Bioinform. 2022;23(6):bbac416.
 
 11. Kress A, Poch O, Lecompte O, Thompson JD. Real or fake? Measuring the impact of protein annotation errors on estimates of domain gain and loss events. Front Bioinform. 2023 Apr 20;3:1178926.
+
+12. Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003;13(11):2498-504.
 
 
 [Bioinformatics Research Laboratory @UCY](https://vprobon.github.io/BRL-UCY) 2005-2023.
