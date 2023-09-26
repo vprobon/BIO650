@@ -110,7 +110,22 @@ Using the protein identifiers for each connected component/cluster you can revis
 
 ##### Step 5: Prepare a report
 
-Prepare a report in the form of a short research paper describing your work for completing Steps 1-4.
+Prepare a report in the form of a short research paper (max. 2500 words) describing your work for completing Steps 1-4. Your report/paper should contain the following sections (no numbering):
+
+- Title page 
+- Introduction
+- Data and Methods
+- Results
+- Discussion
+- References
+
+*Note 1*: You can use Figures, Tables or other visual elements you find appropriate. These elements (and their legends) will not count towards the word count.
+*Note 2*: You are free to use named subsections under any sections. 
+*Note 3*: You should include data supplements with all files containing results of your analyses. A short text describing the content of each of these files should be included as an appendix to your paper (not counting towards the word count).
+*Note 4*: You may choose any citation style you prefer as long as it is used uniformly throughout the text.
+
+
+
 
 
 
