@@ -66,7 +66,23 @@ We will perform sequence similarity-based sequence clustering, to identify group
     * *Tip*: There are several available formats. Select "Hit table(csv)" and save the file on your computer. 
 
 ##### Step 3: Sequence similarity-based clustering
-For simplicity, we will not perform "proper" clustering to our sequence similarity data. We will use the similarities detected using BLAST to generate a ***protein network***: proteins will serve as the *nodes* (or *vertices*) of the network and network *edges* will only be constructed for protein pairs with a detected sequence similarity. Instead of using appropriate clustering algorithms for generating network partitions (aka *subnetworks*), we will use the notion of the *connected components*(see this [link for a definition](https://en.wikipedia.org/wiki/Component\_(graph_theory))). 
+For simplicity, we will not perform "proper" clustering to our sequence similarity data. We will use the similarities detected using BLAST to generate a ***protein network***: proteins will serve as the *nodes* (or *vertices*) of the network and network *edges* will only be constructed for protein pairs with a detected sequence similarity. Instead of using specialized clustering algorithms for generating network partitions (aka *subnetworks*), we will use the notion of the *connected components*(see this [link for a definition](https://en.wikipedia.org/wiki/Component\_(graph_theory))). 
+
+- Construction and Visualization of the sequence similarity-based network
+    * Start Cytoscape on your computer (be patient, it takes sometime to load).
+    * You are prompted to start a new session. Select *"From Network File"*.
+    * In the dialog box that appears navigate to the location where you have downloaded the BLAST output file. 
+    * Cytoscape will import your data and construct a network based on your choice of parameters:
+        * Under **"Interaction definition"** you need to make the following selections
+            * *"Source Interaction"* -> Select *"Column 1"*
+            * *"Target Interaction"* -> Select *"Column 2"*
+            * *"Interaction Type"* -> Select *"Column 12"*
+        * Under **"Advanced"** check the **"Show Text File Import Options"**, then uncheck **"Transfer first line ..."**
+    * Then press **"OK"**. Your network is now constructed.
+    * From the *"Layout"* menu, select "Prefuse Force Directed Layout". Now your network displays in a more comprehensible way.
+        * Can you now recognize the connected components of your network?
+        * How many are they?
+- Computation of all connected components
 
 *Note*: Optionally, if you want to experiment with a proper clustering method (e.g., as performed in [9]), you can install the [clusterMaker2](https://apps.cytoscape.org/apps/clustermaker2) Cytoscape plugin that offers several options to choose from.
 
